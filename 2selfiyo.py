@@ -10,7 +10,7 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 cl = LINETCR.LINE()
-cl.login(token="EoSCK5FMX58nHxQ3ooab.w6+8YbOkbOMyiHAGbC+hcW.Y2jlK62Chi7GyxNE/yudu3DUlZqJ6UNLz06cMSFwruA=")
+cl.login(token="EoE8n1FkK3YuUwsQqipb.w6+8YbOkbOMyiHAGbC+hcW.TQDYbDYquTvTSA7wrduRh8tAQSf/8UZwVEEy8RrCKa8=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
@@ -29,146 +29,146 @@ helpMessage ="""
 
 [ # ] Keyword [ # ]
 
-[{o̺͆}]「 Myhelp 」
-[{o̺͆}]「 Creator 」
-[{o̺͆}]「 Gcreator 」
-[{o̺͆}]「 List group: 」
-[{o̺͆}]「 Leave group: 」
-[{o̺͆}]「 Cancel 」
+[{o̺͆}]「 Myhelp 」
+[{o̺͆}]「 Creator 」
+[{o̺͆}]「 Gcreator 」
+[{o̺͆}]「 List group: 」
+[{o̺͆}]「 Leave group: 」
+[{o̺͆}]「 Cancel 」
 
 [ # ] Set command [ # ]
 
-[{o̺͆}]「 Url:on/off 」
-[{o̺͆}]「 Autojoin:on/off 」
-[{o̺͆}]「 Autocancel:on/off 」
-[{o̺͆}]「 Qr:on/off 」
-[{o̺͆}]「 Autokick:on/off 」
-[{o̺͆}]「 Contact:on/off 」
+[{o̺͆}]「 Url:on/off 」
+[{o̺͆}]「 Autojoin:on/off 」
+[{o̺͆}]「 Autocancel:on/off 」
+[{o̺͆}]「 Qr:on/off 」
+[{o̺͆}]「 Autokick:on/off 」
+[{o̺͆}]「 Contact:on/off 」
 
 [ # ] Command in Groups [ # ]
 
-[{o̺͆}]「 Gift1-3 」
-[{o̺͆}]「 Tag all/Mention all」
-[{o̺͆}]「 Bintit 」
-[{o̺͆}]「 Viewseen 」
-[{o̺͆}]「 Boom  @ 」
-[{o̺͆}]「 Add all 」
-[{o̺͆}]「 Recover 」
-[{o̺͆}]「 Remove all chat 」
-[{o̺͆}]「 Gn: [ name ] 」
-[{o̺͆}]「 Kick: [ mid ] 」
-[{o̺͆}]「 Invite: [ mid ] 」
-[{o̺͆}]「 Welcome 」
-[{o̺͆}]「 Bc: [ text ] 」
-[{o̺͆}]「 Cancelall 」 
-[{o̺͆}]「 Gurl 」
-[{o̺͆}]「 Self Like 」
-[{o̺͆}]「 Speedbot 」
-[{o̺͆}]「 Ban 」
-[{o̺͆}]「 Unban 」
-[{o̺͆}]「 Ban  @ 」
-[{o̺͆}]「 Unban  @ 」
-[{o̺͆}]「 Banlist 」
-[{o̺͆}]「 Kill ban 」
-[{o̺͆}]「 Mid  @ 」
-[{o̺͆}]「 Kernel 」
-[{o̺͆}]「 random: [ jumlah ] 」
-[{o̺͆}]「 Gcreator:inv 」
-[{o̺͆}]「 Gcreator 」
-[{o̺͆}]「 Cipok 」
-[{o̺͆}]「 Kickall 」
-[{o̺͆}]「 Reboot 」
-[{o̺͆}]「 Runtime 」
-[{o̺͆}]「 Blacklist  @  」
+[{o̺͆}]「 Gift1-3 」
+[{o̺͆}]「 Tag all/Mention all」
+[{o̺͆}]「 Bintit 」
+[{o̺͆}]「 Viewseen 」
+[{o̺͆}]「 Boom  @ 」
+[{o̺͆}]「 Add all 」
+[{o̺͆}]「 Recover 」
+[{o̺͆}]「 Remove all chat 」
+[{o̺͆}]「 Gn: [ name ] 」
+[{o̺͆}]「 Kick: [ mid ] 」
+[{o̺͆}]「 Invite: [ mid ] 」
+[{o̺͆}]「 Welcome 」
+[{o̺͆}]「 Bc: [ text ] 」
+[{o̺͆}]「 Cancelall 」 
+[{o̺͆}]「 Gurl 」
+[{o̺͆}]「 Self Like 」
+[{o̺͆}]「 Speedbot 」
+[{o̺͆}]「 Ban 」
+[{o̺͆}]「 Unban 」
+[{o̺͆}]「 Ban  @ 」
+[{o̺͆}]「 Unban  @ 」
+[{o̺͆}]「 Banlist 」
+[{o̺͆}]「 Kill ban 」
+[{o̺͆}]「 Mid  @ 」
+[{o̺͆}]「 Kernel 」
+[{o̺͆}]「 random: [ jumlah ] 」
+[{o̺͆}]「 Gcreator:inv 」
+[{o̺͆}]「 Gcreator 」
+[{o̺͆}]「 Cipok 」
+[{o̺͆}]「 Kickall 」
+[{o̺͆}]「 Reboot 」
+[{o̺͆}]「 Runtime 」
+[{o̺͆}]「 Blacklist  @  」
 
 [ # ] Profile Command [ # ]
 
-[{o̺͆}]「 Myname: 」
-[{o̺͆}]「 Mybio: 」
-[{o̺͆}]「 Copy  @ 」
-[{o̺͆}]「 Backup me 」 
+[{o̺͆}]「 Myname: 」
+[{o̺͆}]「 Mybio: 」
+[{o̺͆}]「 Copy  @ 」
+[{o̺͆}]「 Backup me 」 
 
 [ # ]  System Command [ # ]
 
-[{o̺͆}]「 Ifconfig 」
-[{o̺͆}]「 Kernel  」
-[{o̺͆}]「 Cpu 」
-[{o̺͆}]「 System 」
-[{o̺͆}]「 Say 」
+[{o̺͆}]「 Ifconfig 」
+[{o̺͆}]「 Kernel  」
+[{o̺͆}]「 Cpu 」
+[{o̺͆}]「 System 」
+[{o̺͆}]「 Say 」
 
 [ # ] Audio Command [ # ]
 
-[{o̺͆}]「 Say-en 」English
-[{o̺͆}]「 Say-af  」Africans
-[{o̺͆}]「 Say-ko 」Korean
-[{o̺͆}]「 Say-id  」Indonesian
-[{o̺͆}]「 Say-de 」Germany
-[{o̺͆}]「 Say-ja  」Japan
-[{o̺͆}]「 Say-pl  」Polish
-[{o̺͆}]「 Music  」
-[{o̺͆}]「 Lyric」
+[{o̺͆}]「 Say-en 」English
+[{o̺͆}]「 Say-af  」Africans
+[{o̺͆}]「 Say-ko 」Korean
+[{o̺͆}]「 Say-id  」Indonesian
+[{o̺͆}]「 Say-de 」Germany
+[{o̺͆}]「 Say-ja  」Japan
+[{o̺͆}]「 Say-pl  」Polish
+[{o̺͆}]「 Music  」
+[{o̺͆}]「 Lyric」
 
 [ # ] Stealing Command [ # ]
 
-[{o̺͆}]「 Steal name @ 」
-[{o̺͆}]「 Steal bio @ 」
-[{o̺͆}]「 Steal status @ 」
-[{o̺͆}]「 Steal contact @ 」
-[{o̺͆}]「 Steal cover @ 」
-[{o̺͆}]「 Steal pict @ 」
-[{o̺͆}]「 Steal mid @ 」
-[{o̺͆}]「 Steal group pict 」
-[{o̺͆}]「 Midpict: 」
-[{o̺͆}]「 Info @ 」
-[{o̺͆}]「 Youtube 」
-[{o̺͆}]「 Vidio 」
-[{o̺͆}]「 Wiki 」
-[{o̺͆}]「 Instagram 」
+[{o̺͆}]「 Steal name @ 」
+[{o̺͆}]「 Steal bio @ 」
+[{o̺͆}]「 Steal status @ 」
+[{o̺͆}]「 Steal contact @ 」
+[{o̺͆}]「 Steal cover @ 」
+[{o̺͆}]「 Steal pict @ 」
+[{o̺͆}]「 Steal mid @ 」
+[{o̺͆}]「 Steal group pict 」
+[{o̺͆}]「 Midpict: 」
+[{o̺͆}]「 Info @ 」
+[{o̺͆}]「 Youtube 」
+[{o̺͆}]「 Vidio 」
+[{o̺͆}]「 Wiki 」
+[{o̺͆}]「 Instagram 」
 
 [ # ] Transelate Command [ # ]
 
-[{o̺͆}]「 Translate-idn 」
-[{o̺͆}]「 Translate-eng 」
-[{o̺͆}]「 Translate-japan 」
-[{o̺͆}]「 Translate-thai」
-[{o̺͆}]「 Spam [on/off] [jumlah] [text]」
-[{o̺͆}]「 Image: (link) 」
-[{o̺͆}]「 Searchimage 」
+[{o̺͆}]「 Translate-idn 」
+[{o̺͆}]「 Translate-eng 」
+[{o̺͆}]「 Translate-japan 」
+[{o̺͆}]「 Translate-thai」
+[{o̺͆}]「 Spam [on/off] [jumlah] [text]」
+[{o̺͆}]「 Image: (link) 」
+[{o̺͆}]「 Searchimage 」
 
 [ # ] New Command [ # ]
 
-[{o̺͆}] 「Spam gift」
-[{o̺͆}] 「Spam sticker」
-[{o̺͆}] 「Random sticker」
-[{o̺͆}] 「Random gift」
-[{o̺͆}] 「Random number」
-[{o̺͆}] 「Spam toket」
-[{o̺͆}] 「Spam anu」
-[{o̺͆}] 「Virus」
+[{o̺͆}] 「Spam gift」
+[{o̺͆}] 「Spam sticker」
+[{o̺͆}] 「Random sticker」
+[{o̺͆}] 「Random gift」
+[{o̺͆}] 「Random number」
+[{o̺͆}] 「Spam toket」
+[{o̺͆}] 「Spam anu」
+[{o̺͆}] 「Virus」
 
 [ # ] Chat command [ # ]
 
-[{o̺͆}] 「Bisakah 」
-[{o̺͆}] 「Dosa @」
-[{o̺͆}] 「Pahala @」
-[{o̺͆}] 「Dimana 」
-[{o̺͆}] 「Apakah 」
-[{o̺͆}] 「Besar cinta nama ke nama 」
+[{o̺͆}] 「Bisakah 」
+[{o̺͆}] 「Dosa @」
+[{o̺͆}] 「Pahala @」
+[{o̺͆}] 「Dimana 」
+[{o̺͆}] 「Apakah 」
+[{o̺͆}] 「Besar cinta nama ke nama 」
 
 [ # ] Assist command [ # ]
 
-[{o̺͆}] 「Assist clone @」 
-[{o̺͆}] 「Assist backup 」
-[{o̺͆}] 「Assist spam @」
-[{o̺͆}] 「Assist name: 」
-[{o̺͆}] 「Assist bio: 」
-[{o̺͆}] 「Assist speed」
-[{o̺͆}] 「Assist join」
-[{o̺͆}] 「Assist out」
-[{o̺͆}] 「Abist」
+[{o̺͆}] 「Assist clone @」 
+[{o̺͆}] 「Assist backup 」
+[{o̺͆}] 「Assist spam @」
+[{o̺͆}] 「Assist name: 」
+[{o̺͆}] 「Assist bio: 」
+[{o̺͆}] 「Assist speed」
+[{o̺͆}] 「Assist join」
+[{o̺͆}] 「Assist out」
+[{o̺͆}] 「Abist」
 
 
-  ☬Ƥᴇ̶̮̟͈̣̖̰̩̹͈̾ͨ̑͑ɢ̶͎͚̥͎͔͕ͥ̿ᴀ̶̘̫͈̭͌͛͌̇̇̍s̶̪̭̱̼̼̉̈́ͪ͋̽̚ᴜ̶̟͎̲͕̼̲ͮͫͭ̋ͭ͛ͣ̈s̶̪̭̱̼̼̉̈́ͪ͋̽̚ ᴛ̶̘̟̼̉̈́͐͋͌̊ᴇ̶̮̟͈̣̖̰̩̹͈̾ͨ̑͑ᴀ̶̘̫͈̭͌͛͌̇̇̍ᴍ̶̘͈̺̪͓̺ͩ͂̾ͪ̀̋ ʙ̶͎̣̫͈̥̗͒͌̃͑̔̾ͅᴏ̶̜̓̇ͫ̉͊ͨᴛ̶̘̟̼̉̈́͐͋͌̊
+  ☬Ƥᴇ̶̮̟͈̣̖̰̩̹͈̾ͨ̑͑ɢ̶͎͚̥͎͔͕ͥ̿ᴀ̶̘̫͈̭͌͛͌̇̇̍s̶̪̭̱̼̼̉̈́ͪ͋̽̚ᴜ̶̟͎̲͕̼̲ͮͫͭ̋ͭ͛ͣ̈s̶̪̭̱̼̼̉̈́ͪ͋̽̚ ᴛ̶̘̟̼̉̈́͐͋͌̊ᴇ̶̮̟͈̣̖̰̩̹͈̾ͨ̑͑ᴀ̶̘̫͈̭͌͛͌̇̇̍ᴍ̶̘͈̺̪͓̺ͩ͂̾ͪ̀̋ ʙ̶͎̣̫͈̥̗͒͌̃͑̔̾ͅᴏ̶̜̓̇ͫ̉͊ͨᴛ̶̘̟̼̉̈́͐͋͌̊
 
 ┏━━ೋ• ❄ •ೋ━━━┓
        ❁ Selfbot V 2  ❁    
@@ -196,18 +196,18 @@ backup.pictureStatus = contact.pictureStatus
 wait = {    
     'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
 ≫ Aku Ga Jawab PM Karna aq Cuma Bot Protect ≪
->>✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰<<
+>>✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰<<
 
 ≫ bot protect ≪
 ≫ SelfBot ≪
 
 ṡȗƿƿȏяṭєԀ ɞʏ:
   
-✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      
+✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      
 
 Idline: http://line.me/ti/p/VxtJPseezK""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««",
+    "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
@@ -262,7 +262,7 @@ def sendMessage(to, text, contentMetadata={}, contentType=0):
 def waktu(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
-    return '%02d J̺͆a̺͆m̺͆ %02d M̺͆e̺͆n̺͆i̺͆t̺͆ %02d D̺͆e̺͆t̺͆i̺͆k̺͆' % (hours, mins, secs)
+    return '%02d J̺͆a̺͆m̺͆ %02d M̺͆e̺͆n̺͆i̺͆t̺͆ %02d D̺͆e̺͆t̺͆i̺͆k̺͆' % (hours, mins, secs)
     
 #^deff searchimage
 
@@ -656,7 +656,7 @@ def bot(op):
 		jml = 0
                 for i in gid:
 		    gn = ki.getGroup(i).name
-                    h += "[{o̺͆}]【%s】\n" % (gn)
+                    h += "[{o̺͆}]【%s】\n" % (gn)
 		    jml += 1
                 ki.sendText(msg.to,"======[List Group]======\n"+ h +"Total group: "+str(jml))
 #--------------------------------------------------------
@@ -1466,7 +1466,7 @@ def bot(op):
 		print("Speed")
 		cl.sendText(msg.to, "「Please wait..」")
 		elapsed_time = time.time() - start
-                cl.sendText(msg.to, "[{o̺͆}]「Speed : 0.04 - 0.07」\n[{o̺͆}]「Speed is : %sseconds 」" % (elapsed_time))
+                cl.sendText(msg.to, "[{o̺͆}]「Speed : 0.04 - 0.07」\n[{o̺͆}]「Speed is : %sseconds 」" % (elapsed_time))
 
 #--------------------------------------------------------
             elif msg.text in ["Ban"]:
@@ -1909,4 +1909,3 @@ while True:
         if (Op.type != OpType.END_OF_OPERATION):
             cl.Poll.rev = max(cl.Poll.rev, Op.revision)
             bot(Op)
-
