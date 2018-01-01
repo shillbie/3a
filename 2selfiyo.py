@@ -3,14 +3,18 @@
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re,os,subprocess
+from bs4 import BeautifulSoup
+from threading import Thread
+from googletrans import Translator
+from gtts import gTTS
+import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 cl = LINETCR.LINE()
 cl.login(token="EoSCK5FMX58nHxQ3ooab.w6+8YbOkbOMyiHAGbC+hcW.Y2jlK62Chi7GyxNE/yudu3DUlZqJ6UNLz06cMSFwruA=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="Eo2XLrpnDpo4Q4tzdTbd.t9bOCFBZsWK6oxk4TD6ppq.rU0TfVgsNlky5847GB2LoI5YRTCPcYAg474WrnI37B8")
+ki.login(token="Eo2XLrpnDpo4Q4tzdTbd.t9bOCFBZsWK6oxk4TD6ppq.rU0TfVgsNlky5847GB2LoI5YRTCPcYAg474WrnI37B8=")
 ki.loginResult()
 
 print "===[Login Success]==="
